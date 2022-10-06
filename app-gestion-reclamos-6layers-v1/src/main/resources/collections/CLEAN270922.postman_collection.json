@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "5b625f5a-28e4-4b9d-9229-593b859e74dc",
+		"name": "CLEAN270922",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Arq. 3Layers",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8082/api-gestion-reclamos-3layer/v1/proveedores",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8082",
+							"path": [
+								"api-gestion-reclamos-3layer",
+								"v1",
+								"proveedores"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
