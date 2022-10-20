@@ -5,9 +5,9 @@ import java.util.Optional;
 import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.gateways.sql.oracle.mappers.ProveedorOracleMapper;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.gateways.sql.oracle.springdata.ProveedorRespository;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.dto.ProveedorDTO;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.mappers.ProveedorMapper;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.repository.administracion.ProveedorRespository;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.interactors.exceptions.InteractorException;
 
 @Slf4j
@@ -16,7 +16,7 @@ import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecase
 public class ProveedorServiceImpl implements ProveedorService {
 	
 	private final ProveedorRespository proveedorRespository;
-	private final ProveedorMapper proveedorMapper;
+	private final ProveedorOracleMapper proveedorMapper;
 
 	@Override
 	public List<ProveedorDTO> findLikeObject(ProveedorDTO proveedorDTO ) throws InteractorException {

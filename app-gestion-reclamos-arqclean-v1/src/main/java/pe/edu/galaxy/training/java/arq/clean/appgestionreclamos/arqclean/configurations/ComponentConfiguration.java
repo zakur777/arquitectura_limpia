@@ -4,8 +4,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entity.ProveedorEntity;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.repository.administracion.ProveedorRespository;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.gateways.sql.oracle.entity.ProveedorEntity;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.gateways.sql.oracle.springdata.ProveedorRespository;
 
 @Slf4j
 @RequiredArgsConstructor
@@ -25,7 +25,7 @@ public class ComponentConfiguration implements CommandLineRunner {
 				.id(1L).razonSocial("GALAXY TRAINING PERU")
 				.correo("contacto@galaxy.edu.pe")
 				.telefono("+51 950 4506")
-				.estado("1").ruc("PRUEBA-RUC")
+				.estado("1")
 				.build());
 		
 		proveedorRespository.findAll().forEach((city) -> {
