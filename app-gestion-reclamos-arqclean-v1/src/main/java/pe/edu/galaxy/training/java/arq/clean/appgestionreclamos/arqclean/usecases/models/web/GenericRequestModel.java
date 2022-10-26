@@ -1,4 +1,4 @@
-package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.generic.models.web;
+package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.web;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,6 +12,6 @@ import lombok.experimental.SuperBuilder;
 public class GenericRequestModel {
 
 	private String audIP;
-    private String audUsuario;
+	private String audUsuario;
 	
 }

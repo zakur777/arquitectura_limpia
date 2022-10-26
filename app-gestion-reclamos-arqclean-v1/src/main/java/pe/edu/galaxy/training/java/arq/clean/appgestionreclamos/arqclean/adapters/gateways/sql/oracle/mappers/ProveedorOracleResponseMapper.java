@@ -2,7 +2,8 @@ package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapte
 
 import org.mapstruct.Mapper;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.gateways.sql.oracle.entity.ProveedorEntity;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.db.ProvedorBDResponseModel;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.db.ProvedorBDRequestModel;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.db.ProvedorBDResponseModel;
 
 
 @Mapper(componentModel = "spring")

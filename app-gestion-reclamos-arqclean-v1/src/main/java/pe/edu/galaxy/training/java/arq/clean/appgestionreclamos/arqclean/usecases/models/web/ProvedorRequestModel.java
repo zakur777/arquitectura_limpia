@@ -1,4 +1,4 @@
-package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.db;
+package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.web;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,9 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProvedorBDResponseModel { // 
+public class ProvedorRequestModel extends GenericRequestModel {
+
+	private static final long serialVersionUID = 1731794648750894180L;
 
 	private String razonSocial;
 

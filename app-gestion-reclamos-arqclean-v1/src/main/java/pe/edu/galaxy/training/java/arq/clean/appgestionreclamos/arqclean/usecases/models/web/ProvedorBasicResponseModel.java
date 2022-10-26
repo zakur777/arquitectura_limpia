@@ -1,4 +1,4 @@
-package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.db;
+package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.web;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProvedorBDBasicResponseModel { // 
+public class ProvedorBasicResponseModel { // 
 
 	private String razonSocial;
 

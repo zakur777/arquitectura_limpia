@@ -1,4 +1,4 @@
-package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.controllers.rest.controller.exceptions;
+package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.controller.exceptions;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 

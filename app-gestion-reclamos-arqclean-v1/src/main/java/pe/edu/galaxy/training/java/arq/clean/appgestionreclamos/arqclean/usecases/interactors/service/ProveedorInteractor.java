@@ -8,10 +8,10 @@ import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entitie
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.exceptions.ProveedorException;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.factory.ProveedorFactory;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.interactors.exceptions.InteractorException;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.db.ProvedorBDRequestModel;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.web.ProvedorBasicResponseModel;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.web.ProvedorRequestModel;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.web.ProvedorResponseModel;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.db.ProvedorBDRequestModel;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.web.ProvedorBasicResponseModel;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.web.ProvedorRequestModel;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.web.ProvedorResponseModel;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.ports.input.ProveedorQueryUseCase;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.ports.input.ProveedorSaveUseCase;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.ports.output.ProveedorBDGateway;

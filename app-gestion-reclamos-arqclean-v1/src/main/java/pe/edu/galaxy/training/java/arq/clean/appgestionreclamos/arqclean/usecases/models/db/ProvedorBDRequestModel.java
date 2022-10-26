@@ -1,10 +1,9 @@
-package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.db;
+package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.db;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.SuperBuilder;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.generic.models.db.GenericBDRequestModel;
 
 @Data
 @SuperBuilder
