@@ -4,12 +4,12 @@ import java.util.List;
 
 public interface GenericMapper<E,D> {
 
-	E toEntity(D d);
+	E toBD(D d);
 	
-	D toDTO(E e);
+	D toModel(E e);
 	
-	List<D> toDTOs(List<E> lstEntities);
+	List<D> toModels(List<E> lstBDs);
 
-	List<E> toEntities(List<D> lstDtos);
+	List<E> toBDs(List<D> lstModels);
 
 }

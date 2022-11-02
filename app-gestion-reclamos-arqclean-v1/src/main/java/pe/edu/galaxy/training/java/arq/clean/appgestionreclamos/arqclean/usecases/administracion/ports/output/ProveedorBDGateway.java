@@ -14,7 +14,7 @@ public interface ProveedorBDGateway {
 	
 	List<ProvedorBDResponseModel> findByLikeRazonSocial(String razonSocial); // Agretations
 
-	List<ProvedorBDBasicResponseModel> findByAllActivos(String razonSocial); 
+	List<ProvedorBDBasicResponseModel> findByAllActivos(); 
 	
 	boolean save(ProvedorBDRequestModel provedorBDRequestModel);
 

@@ -9,9 +9,9 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
-public class GenericBDRequestModel {
+public class GenericBDResponseModel {
 
-	private Long id;
-
+	private String audIP;
+	private String audUsuario;
 	
 }

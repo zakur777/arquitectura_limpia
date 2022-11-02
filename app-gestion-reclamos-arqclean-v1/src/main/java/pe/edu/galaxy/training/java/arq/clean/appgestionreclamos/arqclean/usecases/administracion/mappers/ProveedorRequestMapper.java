@@ -8,7 +8,7 @@ import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecase
 
 
 @Mapper(componentModel = "spring")
-public interface ProveedorMapper extends GenericMapper<ProvedorBDRequestModel, ProvedorRequestModel>{
+public interface ProveedorRequestMapper extends GenericMapper<ProvedorBDRequestModel, ProvedorRequestModel>{
 
 	//@Mapping(target="employeeId", source="entity.id")
 }

@@ -11,6 +11,8 @@ public interface ProveedorQueryUseCase {
 
 	List<ProvedorResponseModel> findByLikeRazonSocial(String razonSocial);
 
-	List<ProvedorBasicResponseModel> findByAllActivos(String razonSocial); 
+	List<ProvedorBasicResponseModel> findByAllActivos(); 
+	
+	List<String> findByAllActivosText();
 	
 }

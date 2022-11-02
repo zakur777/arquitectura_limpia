@@ -2,13 +2,25 @@ package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapte
 
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.web.ProvedorResponseModel;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.presenters.ProveedorPresenter;
+import static java.util.Objects.isNull;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ProveedorResponsePresenter implements ProveedorPresenter{
 
 	@Override
 	public String prepareText(ProvedorResponseModel provedorResponseModel) {
 	
-		return null;
+		if (isNull(provedorResponseModel)) {
+			return "";
+		}
+		
+		//return provedorResponseModel.getRuc().concat(" : ").concat(provedorResponseModel.getRazonSocial());
+		return provedorResponseModel.getRazonSocial()
+				.concat(" (")
+				.concat(provedorResponseModel.getRuc()
+				.concat(") "));
 	}
 
 	@Override

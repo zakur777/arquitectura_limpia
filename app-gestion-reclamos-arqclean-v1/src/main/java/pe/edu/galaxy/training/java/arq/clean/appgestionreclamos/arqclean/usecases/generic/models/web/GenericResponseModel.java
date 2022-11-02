@@ -1,4 +1,4 @@
-package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.generic.models.db;
+package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.generic.models.web;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import lombok.experimental.SuperBuilder;
 @SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
-public class GenericBDRequestModel {
+public class GenericResponseModel {
 
 	private Long id;
 

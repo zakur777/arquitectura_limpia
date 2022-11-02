@@ -12,6 +12,10 @@ import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapter
 public interface ProveedorOracleSpringDataRespository extends GenericOracleSpringDataRespository<ProveedorEntity, Long> {
 
 	
+	
+	@Query("select p from ProveedorEntity p where p.estado='1'")
+	List<ProveedorEntity> findByAllActivos();
+	
 	// JPQL (Java Persistence Query Languaje
     @Query("select p from ProveedorEntity p where upper(p.razonSocial) like upper(:razonSocial) and p.estado='1'")
     List<ProveedorEntity> findByLikeRazonSocial(@Param("razonSocial") String razonSocial);

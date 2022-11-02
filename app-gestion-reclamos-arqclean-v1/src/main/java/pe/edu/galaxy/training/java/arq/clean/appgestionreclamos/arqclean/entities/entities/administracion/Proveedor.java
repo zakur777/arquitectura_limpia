@@ -1,7 +1,5 @@
 package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.entities.administracion;
 
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.SituacionProveedorEnum;
-
 public interface Proveedor {
 
 	String getRazonSocial();

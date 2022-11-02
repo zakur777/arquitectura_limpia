@@ -1,9 +1,12 @@
 package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.factory;
 
+import org.springframework.stereotype.Component;
+
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.entities.administracion.Proveedor;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.entities.administracion.ProveedorImpl;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.exceptions.ProveedorException;
 
+@Component
 public class ProveedorFactoryImpl implements ProveedorFactory{
 
 	@Override

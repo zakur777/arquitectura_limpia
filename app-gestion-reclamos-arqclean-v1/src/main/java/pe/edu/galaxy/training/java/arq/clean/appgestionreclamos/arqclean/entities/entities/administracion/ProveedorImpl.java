@@ -1,6 +1,5 @@
 package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.entities.administracion;
 
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.SituacionProveedorEnum;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.exceptions.ProveedorException;
 import static java.util.Objects.isNull;
 import static pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.validators.RucValidator.validarRuc;
