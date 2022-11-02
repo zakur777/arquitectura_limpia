@@ -7,11 +7,10 @@ import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapter
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.gateways.sql.oracle.mappers.ProveedorOracleRequestMapper;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.gateways.sql.oracle.mappers.ProveedorOracleResponseMapper;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.gateways.sql.oracle.springdata.ProveedorOracleSpringDataRespository;
-//import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.adapters.gateways.sql.oracle.springdata.usp.ProveedorUSPOracleSpringDataRespository;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.db.ProvedorBDBasicResponseModel;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.db.ProvedorBDRequestModel;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.models.db.ProvedorBDResponseModel;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.ports.output.ProveedorBDGateway;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.db.ProvedorBDBasicResponseModel;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.db.ProvedorBDRequestModel;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.models.db.ProvedorBDResponseModel;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.usecases.administracion.ports.output.ProveedorBDGateway;
 
 import static java.util.Objects.isNull;
 

@@ -1,7 +1,7 @@
 package pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.factory;
 
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.entities.adminstracion.Proveedor;
-import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.entities.adminstracion.ProveedorImpl;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.entities.administracion.Proveedor;
+import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.entities.administracion.ProveedorImpl;
 import pe.edu.galaxy.training.java.arq.clean.appgestionreclamos.arqclean.entities.exceptions.ProveedorException;
 
 public class ProveedorFactoryImpl implements ProveedorFactory{
